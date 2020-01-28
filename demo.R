@@ -1,4 +1,4 @@
-f = read.csv("/Users/JeremyZhang/Desktop/2016fall/sta302/Assignment/A3/fishermen_mercury.csv",header=T)
+f = read.csv("./fishermen_mercury.csv",header=T)
 par(mfrow=c(2,2))
 
 # factor the dummy variables
